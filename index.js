@@ -13,7 +13,7 @@ const Web3 = require('web3');
         new Web3.providers.HttpProvider("https://goerli.infura.io/v3/cd9840c963b54d63b5adaea7eb66d8ac")
     );
 
-    const adminAddress = "0x6Ae1328ACbF03574909948FBA083131a9f1461Ca"
+    const adminAddress = ""
     const addressETH = "0x00Bc0d911c1cFF25609e170A3831963918fC21b0"
 
     var ABIETH =[
@@ -78,7 +78,7 @@ const Web3 = require('web3');
 
     //sAddress,nAmount
 
-    const PrivateKey = "f9269f6382e5d0c0105d1b134105f121552360768efa1c502ec66f4858fd6313";
+    const PrivateKey = "";
 
     var key = new Buffer.from(PrivateKey, 'hex');
 
