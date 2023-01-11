@@ -147,4 +147,15 @@ const Web3 = require('web3');
     }
 }
 
+async function gethash(uniqueKey) {
+	try{
+	contractEth.methods.retrieveSignature(uniqueKey).call(function (err, nHash) {
+		console.log(nBalance)
+	})
+ }catch(err){
+ console.log(err)
+ }
+}
+
+
 setData("10","11223344");
